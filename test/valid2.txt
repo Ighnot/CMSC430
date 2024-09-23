@@ -1,0 +1,7 @@
+-- Program with a Hexadecimal Literals
+
+function main returns integer;
+    a: integer is #A;
+begin
+    a + #a;
+end;

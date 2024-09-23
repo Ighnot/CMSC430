@@ -1,0 +1,6 @@
+// Folding a nonnumeric List
+
+function main returns integer;
+begin
+    fold left + ('a', 'b', 'c') endfold;    
+end;

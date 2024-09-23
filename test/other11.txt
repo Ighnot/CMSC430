@@ -1,0 +1,14 @@
+-- Mixing Numeric and Character Types with Relational Operator
+
+function main returns real;
+begin
+    if 'b' < 'c' then
+        1.2;
+    elsif 2 < 1 then
+        2.4;
+    elsif 3 < '4' then
+        3.6;
+    else
+        4.8;
+    endif;
+end;

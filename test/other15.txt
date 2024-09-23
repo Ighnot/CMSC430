@@ -1,0 +1,9 @@
+// Folding a nonnumeric List
+
+function main returns character;
+//function main returns integer;
+    char_list: list of character is ('z', 'y', 'x');
+    //char_list: list of integer is (20, 10, 40);
+begin
+    fold left + char_list endfold;    
+end;

@@ -1,0 +1,7 @@
+// Variable Initialization Mismatch
+
+function main returns character;
+    value: character is 1;
+begin
+    'B';
+end;

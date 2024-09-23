@@ -1,0 +1,12 @@
+-- If Elsif Else Mismatch
+
+function main returns integer;
+begin
+    if 9 < 10 then
+        1;
+    elsif 8 = 1 then
+        2;
+    else 
+        3.7;
+    endif;
+end;

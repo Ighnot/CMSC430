@@ -1,0 +1,11 @@
+// Non Integer Switch Expression
+
+function main returns character;
+    b: real is 2.5;
+begin
+    switch b is
+        case 1 => 'A';
+        case 2 => 'B';
+        others => 'C';
+    endswitch;
+end;

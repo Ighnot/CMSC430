@@ -1,0 +1,7 @@
+// List Type Does Not Match Element Types
+
+function main returns integer;
+    intList: list of integer is ('X', 'Y', 'Z');
+begin
+    intList(1);
+end;

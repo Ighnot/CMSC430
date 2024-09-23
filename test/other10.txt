@@ -1,0 +1,7 @@
+// List Subscript is not Integer
+
+function main returns character;
+    aList: list of character is ('A', 'E', 'I', 'O', 'U');
+begin
+    aList('E');
+end;

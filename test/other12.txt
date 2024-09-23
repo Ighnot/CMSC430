@@ -1,0 +1,10 @@
+// Using Character Literal with Exponentiation Operator
+//     and Negation Operator
+
+function main returns character;
+    c: integer is 2 ^ '2';
+    d: integer is ~'8';
+begin
+    'C';
+end;
+

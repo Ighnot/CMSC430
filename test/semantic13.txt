@@ -1,0 +1,6 @@
+// Mixing Real Literals with the Remainder Operator
+
+function main returns integer;
+begin
+    4 % 4.8;
+end;

@@ -1,0 +1,10 @@
+-- Duplicate Scalar and List Variables
+
+function main returns real;
+    var_a: character is 'A';
+    var_list: list of real is (2.9, 9.1);
+    var_a: integer is 12 + 7;
+    var_list: list of integer is (20, 12);
+begin
+    0.5;
+end;

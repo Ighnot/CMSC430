@@ -1,0 +1,6 @@
+// When Types Mismatch
+
+function main returns integer;
+begin
+    when 2 < 1, 1 : 'a';
+end;

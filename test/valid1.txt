@@ -1,0 +1,7 @@
+-- Program with a Real Variable
+
+function main returns real;
+    a: real is 4.5;
+begin
+    a;
+end;

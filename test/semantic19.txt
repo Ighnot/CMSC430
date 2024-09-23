@@ -1,0 +1,15 @@
+// Multiple Semantic Errors
+
+function main returns integer;
+    value: integer is 4.5;
+    numbers: list of real is (1, 2, 3);
+    one: integer is '1';
+begin
+    if value > 0 then
+        fold left + ('a', 'b') endfold;
+    elsif name = 'N' then
+        fold right * (1, 2.5) endfold;
+    else
+        when value < 10, 1 : 1.5;
+    endif;
+end;

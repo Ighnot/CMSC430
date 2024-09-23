@@ -1,0 +1,7 @@
+// List with Elements of Different Types
+
+function main returns real;
+    realList: list of real is (1.5, 2, 3.3, 6.4);
+begin
+    realList(2);
+end;

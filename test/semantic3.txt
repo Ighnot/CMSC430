@@ -1,0 +1,11 @@
+// Non Integer Switch Expression
+
+function main returns integer;
+    b: character is 'A';
+begin
+    switch b is
+        case 1 => 2;
+        case 2 => 4;
+        others => 6;
+    endswitch;
+end;

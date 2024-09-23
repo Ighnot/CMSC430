@@ -1,0 +1,12 @@
+-- Mixing Numeric and Character Types with Relational Operator
+
+function main returns integer;
+begin
+    if 'b' < 'c' then
+        1;
+    elsif 'b' < 1 then
+        2;
+    else
+        3;
+    endif;
+end;

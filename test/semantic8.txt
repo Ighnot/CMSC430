@@ -1,0 +1,7 @@
+// List with Elements of Different Types
+
+function main returns integer;
+    aList: list of integer is (1, 2, 3.5);
+begin
+    aList(1);
+end;

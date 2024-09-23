@@ -1,0 +1,7 @@
+// List Subscript is not Integer
+
+function main returns integer;
+    aList: list of integer is (1, 2, 3);
+begin
+    aList(1.5);
+end;

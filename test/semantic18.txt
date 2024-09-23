@@ -1,0 +1,10 @@
+-- Duplicate Scalar and List Variables
+
+function main returns integer;
+    scalar: integer is 4 * 2;
+    scalar: character is 'b';
+    a_list: list of integer is (4, 2);
+    a_list: list of real is (2.3, 4.4);
+begin
+    1;
+end;

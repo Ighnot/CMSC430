@@ -1,0 +1,6 @@
+// When Types Mismatch
+
+function main returns real;
+begin
+    when 2 < 1, 1 : 2.5;
+end;

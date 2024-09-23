@@ -1,0 +1,7 @@
+// Undeclared List Variable
+
+function main returns integer;
+    primes: list of integer is (2, 3, 5);
+begin
+    primes(1) + 1 * multiples(1);
+end;

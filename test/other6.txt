@@ -1,0 +1,7 @@
+// Undeclared Scalar Variable
+
+function main returns integer;
+    b: integer is #FF;
+begin
+    2 * b + 3 - sum;
+end;

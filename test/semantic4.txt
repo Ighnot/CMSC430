@@ -1,0 +1,11 @@
+// Case Types Mismatch
+
+function main returns integer;
+    b: character is 'b';
+begin
+    switch 1 is
+        case 1 => 2;
+        case 2 => b;
+        others => 6;
+    endswitch;
+end;

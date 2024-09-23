@@ -1,0 +1,11 @@
+-- Narrowing Function Return
+
+function main returns integer;
+    b: integer is 6 * 2;
+begin
+    if 8 < 0 then
+        b + 3.0;
+    else
+        b * 4.6;
+    endif;
+end;

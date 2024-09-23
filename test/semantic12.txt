@@ -1,0 +1,9 @@
+// Using Character Literal with Exponentiation Operator
+//     and Negation Operator
+
+function main returns integer;
+    c: character is ~'c';
+begin
+    5 ^ 'P';
+end;
+
